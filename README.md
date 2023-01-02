@@ -1,4 +1,4 @@
-How to forecast inflation (consumer price index) using OLS?
+**How to forecast inflation (consumer price index) using OLS?**
 
 Ordinary Least Square (OLS) is a statistical method that can be used to model the linear relationship between a dependent variable and one or more independent variables. 
  
