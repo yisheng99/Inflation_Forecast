@@ -18,34 +18,11 @@ Step 4. Plot the actual and predicted values, compare to see whether the OLS mod
 ![image](https://user-images.githubusercontent.com/121606452/210196185-8021547b-d739-44ea-aecf-2fb3c0a02505.png)
 
 
-                           OLS Regression Results                            
-==============================================================================
-Dep. Variable:                    CPI   R-squared:                       0.903
-Model:                            OLS   Adj. R-squared:                  0.902
-Method:                 Least Squares   F-statistic:                     537.4
-Date:                Mon, 02 Jan 2023   Prob (F-statistic):           4.48e-59
-Time:                        12:14:23   Log-Likelihood:                -237.84
-No. Observations:                 118   AIC:                             481.7
-Df Residuals:                     115   BIC:                             490.0
-Df Model:                           2                                         
-Covariance Type:            nonrobust                                         
-================================================================================
-                   coef    std err          t      P>|t|      [0.025      0.975]
---------------------------------------------------------------------------------
-Money_Supply  2.741e-05   1.17e-06     23.496      0.000    2.51e-05    2.97e-05
-Unemployment    -0.0170      0.003     -6.404      0.000      -0.022      -0.012
-const           78.2362      1.212     64.545      0.000      75.835      80.637
-==============================================================================
-Omnibus:                        7.524   Durbin-Watson:                   0.103
-Prob(Omnibus):                  0.023   Jarque-Bera (JB):                7.906
-Skew:                           0.616   Prob(JB):                       0.0192
-Kurtosis:                       2.702   Cond. No.                     1.28e+07
-==============================================================================
+![image](https://user-images.githubusercontent.com/121606452/210196436-8ba6572c-1d76-47ea-8a80-c4f23045a17c.png)
 
-        feature        VIF
-0  Money_Supply   3.113984
-1  Unemployment   3.113984
-2         const  51.227945
+
+![image](https://user-images.githubusercontent.com/121606452/210196446-70b677b8-773f-4162-9d4c-5e94dfa36691.png)
+
 
 Test for homoscedasticity
 
